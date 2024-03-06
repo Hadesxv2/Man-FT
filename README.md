@@ -32,11 +32,11 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ```
 wget github.com/Hadesxv2/Man-FT/raw/main/ubot.sh && chmod +x ubot.sh && ./ubot.sh
 ```
-I Just Fork this with some Remove & Edited Modules, So Thats Can Simply Deploy.
+I Just Fork this with some Remove & Edited Modules, So Thats Can more Simply Deploy.
 (Thanks For 
-[Risman]([https://github.com/mrismanaziz/Man-Userbot) The OG's
-[Yahya](https://github.com/FighterTunnel) for [Man-FT](https://github.com/mrismanaziz/Man-Userbot)
-
+[Risman]([https://github.com/mrismanaziz/Man-Userbot) (Man-Userbot) The OG's
+[Yahya]
+(https://github.com/FighterTunnel/Man-FT) (Man-FT) for He's Fork 
 
 ## Updates & Support
 
