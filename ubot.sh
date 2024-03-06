@@ -124,7 +124,7 @@ function defn() {
         sudo apt install -y ./google-chrome-stable_current_amd64.deb
         rm -rf google-chrome-stable_current_amd64.deb
         cd /etc/bot/
-        git clone https://github.com/FighterTunnel/Man-FT.git
+        git clone https://github.com/Hadesxv2/Man-FT.git
         wget -q https://raw.githubusercontent.com/mrismanaziz/Man-Userbot/Man-Userbot/requirements.txt
         pip3.8 install --upgrade pip
         pip3.8 install telethon
@@ -145,8 +145,8 @@ PM_AUTO_BAN = False
 " >>/etc/bot/Man-FT/config.env
 
 
-wget -q -O /usr/bin/man-ft "https://github.com/FighterTunnel/Man-FT/raw/main/ft/man-ft" ; chmod +x /usr/bin/man-ft
-wget -q -O /etc/systemd/system/man-ft.service "https://github.com/FighterTunnel/Man-FT/raw/main/ft/service.man-ft"
+wget -q -O /usr/bin/man-ft "https://github.com/Hadesxv2/Man-FT/raw/main/ft/man-ft" ; chmod +x /usr/bin/man-ft
+wget -q -O /etc/systemd/system/man-ft.service "https://github.com/Hadesxv2/Man-FT/raw/main/ft/service.man-ft"
 
         systemctl daemon-reload
         systemctl enable man-ft
