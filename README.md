@@ -34,7 +34,8 @@ wget github.com/Hadesxv2/Man-FT/raw/main/ubot.sh && chmod +x ubot.sh && ./ubot.s
 ```
 I Just Fork this with some Remove & Edited Modules, So Thats Can Simply Deploy.
 (Thanks For 
-[Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) The OG's
+[Risman]([https://github.com/mrismanaziz/Man-Userbot) The OG's
+[Yahya](https://github.com/FighterTunnel) for [Man-FT](https://github.com/mrismanaziz/Man-Userbot)
 
 
 ## Updates & Support
