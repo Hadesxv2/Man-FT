@@ -4,9 +4,9 @@
 # you may not use this file except in compliance with the License.
 #
 
-from pytgcalls import StreamType
-from pytgcalls.exceptions import AlreadyJoinedError
-from pytgcalls.types.input_stream import InputAudioStream, InputStream
+#from pytgcalls import StreamType
+#from pytgcalls.exceptions import AlreadyJoinedError
+#from pytgcalls.types.input_stream import InputAudioStream, InputStream
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
 from telethon.tl.functions.phone import DiscardGroupCallRequest as stopvc

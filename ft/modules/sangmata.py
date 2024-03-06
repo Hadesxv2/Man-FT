@@ -30,14 +30,14 @@ async def _(event):
     if not user:
         return
     uid = user.id
-    chat = "@SangMataInfo_bot"
+    chat = "@SangMata_BOT"
     manevent = await edit_or_reply(event, "`Processing...`")
     async with event.client.conversation(chat) as conv:
         try:
-            await conv.send_message(f"/search_id {uid}")
+            await conv.send_message(f"{uid}")
         except YouBlockedUserError:
             await event.client(UnblockRequest(chat))
-            await conv.send_message(f"/search_id {uid}")
+            await conv.send_message(f"{uid}")
         responses = []
         while True:
             try:

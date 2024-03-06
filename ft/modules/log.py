@@ -11,7 +11,7 @@ from ft import CMD_HANDLER as cmd
 from ft import CMD_HELP, LOGS
 from ft.modules.sql_helper import no_log_pms_sql
 from ft.modules.sql_helper.globals import addgvar, gvarstatus
-from ft.modules.vcplugin import vcmention
+#from ft.modules.vcplugin import vcmention
 from ft.utils import (
     _format,
     chataction,
