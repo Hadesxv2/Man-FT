@@ -6,13 +6,13 @@
 # t.me/Sharingft & t.me/Lunatic0de
 
 
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from pytgcalls.types.input_stream.quality import (
-    HighQualityAudio,
-    HighQualityVideo,
-    LowQualityVideo,
-    MediumQualityVideo,
-)
+#from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
+#from pytgcalls.types.input_stream.quality import (
+ #   HighQualityAudio,
+  #  HighQualityVideo,
+   # LowQualityVideo,
+    #MediumQualityVideo,
+#)
 
 from ft import LOGS, call_py
 from ft.core.vcbot.queues import QUEUE, clear_queue, get_queue, pop_an_item
