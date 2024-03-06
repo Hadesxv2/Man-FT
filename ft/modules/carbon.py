@@ -17,7 +17,7 @@ from ft import CMD_HELP
 from ft.utils import edit_delete, edit_or_reply, man_cmd
 from ft.utils.misc import Carbon
 
-from .vcplugin import vcmention
+#from .vcplugin import vcmention
 
 all_col = [
     "Black",
