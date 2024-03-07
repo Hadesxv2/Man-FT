@@ -135,8 +135,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "fightertunnell")
-CHANNEL = os.environ.get("CHANNEL", "fightertunnell")
+GROUP = os.environ.get("GROUP", "HadesxGroup")
+CHANNEL = os.environ.get("CHANNEL", "HadesxVLN")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -151,7 +151,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/FighterTunnel/Man-FT.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Hadesxv2/Man-FT.git"
 )
 
 # Custom Name Sticker Pack
@@ -515,7 +515,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@fightertunnell"):
+            if event.query.user_id == uid and query.startswith("@HadesxGroup"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=logoman,
@@ -527,14 +527,14 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository Man - FT",
-                    url="https://t.me/fightertunnell",
+                    url="https://t.me/HadesxVPN",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Man - FT**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Yha](https://t.me/yha_bot)\n✣ **Support :** @fightertunnell\n✣ **Repository :** [Man-FT](https://github.com/FighterTunnel/Man-FT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Man - FT**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Hadesx](https://t.me/iHadesx)\n✣ **Support :** @HadesxVPN\n✣ **Repository :** [Man-FT](https://github.com/Hadesxv2/Man-FT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/fightertunnell"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/HadesxGroup"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/FighterTunnel/Man-FT"
+                                "ʀᴇᴘᴏ", "https://github.com/Hadesxv2/Man-FT"
                             ),
                         ],
                     ],
@@ -576,14 +576,14 @@ with bot:
                 result = builder.article(
                     title="✗ Man-FT ✗",
                     description="Man - FT | Telethon",
-                    url="https://t.me/fightertunnell",
+                    url="https://t.me/HadesxVPN",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**Man - FT**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @fightertunnell\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Man - FT**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @HadesxGroup\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/fightertunnell"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/HadesxGroup"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/FighterTunnel/Man-FT"
+                                "ʀᴇᴘᴏ", "https://github.com/Hadesxv2/Man-FT"
                             ),
                         ],
                     ],
