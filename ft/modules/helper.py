@@ -15,10 +15,10 @@ async def usit(event):
     await edit_or_reply(
         event,
         f"**Hai {me.first_name} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✣ **Group FTVPN :** [FTVPN](t.me/fightertunnell)\n"
-        f"✣ **Channel FTVPN:** [CH FTVPN](https://t.me/fightertunnell)\n"
-        f"✣ **Owner Repo :** [ﾘんﾑ](https://t.me/yha_bot)\n"
-        f"✣ **Repo :** [Man-FT](https://github.com/FighterTunnel/Man-FT)\n",
+        f"✣ **Group :** [DISSCUSSIO𝐍](t.me/HadesxGroup)\n"
+        f"✣ **Channel FTVPN:** [CH VPN](https://t.me/HadesxVPN)\n"
+        f"✣ **Owner Repo :** [𝐇 𝐚 𝐝 𝐞 𝐬 𝐱](https://t.me/iHadesx)\n"
+        f"✣ **Repo :** [Man-FT](https://github.com/Hadesxv2/Man-FT)\n",
     )
 
 
@@ -26,7 +26,7 @@ async def usit(event):
 async def var(event):
     await edit_or_reply(
         event,
-        "**Daftar Lengkap Vars Dari Man-FT:** [KLIK DISINI](https://t.me/fightertunnell)",
+        "**Daftar Lengkap Vars Dari Man-FT:** [KLIK DISINI](https://t.me/HadesxGroup)",
     )
 
 
