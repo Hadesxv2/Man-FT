@@ -16,7 +16,7 @@ async def help(event):
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
-            await edit_or_reply(event, f"{CMD_HELP[args]}\n\n⧫︎ **@fightertunnell**")
+            await edit_or_reply(event, f"{CMD_HELP[args]}\n\n⧫︎ **@HadesxVPN**")
         else:
             await edit_delete(event, f"`{args}` **Bukan Nama Modul yang Valid.**")
     else:
@@ -27,7 +27,7 @@ async def help(event):
             string += f"`\t\t\t{ICON_HELP}\t\t\t"
         await edit_or_reply(
             event,
-            f"**✦ Daftar Perintah Untuk [Man-FT](https://github.com/FighterTunnel/Man-FT):**\n"
+            f"**✦ Daftar Perintah Untuk [Man-FT](https://github.com/Hadesxv2/Man-FT):**\n"
             f"**✦ Jumlah** `{len(CMD_HELP)}` **Modules**\n"
             f"**✦ Owner:** [{user.first_name}](tg://user?id={user.id})\n\n"
             f"{ICON_HELP}   {string}"
