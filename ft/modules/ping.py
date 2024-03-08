@@ -62,7 +62,7 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await xx.edit(
-        f"**𝙸𝚖 𝙰𝚠𝚊𝚔𝚎 𝚂𝚒𝚛!🤖**\n"
+        f"**𝙸'𝚖 𝙰𝚠𝚊𝚔𝚎 𝚂𝚒𝚛!🤖**\n"
         f"❤️‍🔥 `𝚂𝚝𝚊𝚝𝚞𝚜` - `%sms`\n"
         f"❤️‍🔥 `𝚄𝚙𝚝𝚒𝚖𝚎` - `{uptime}⏱️` \n"
         f"**🤖 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛 𝚒𝚜** - [{user.first_name}](tg://user?id={user.id})" % (duration)
