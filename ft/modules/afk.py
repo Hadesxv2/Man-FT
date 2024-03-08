@@ -49,7 +49,7 @@ async def set_not_afk(event):
         except BaseException:
             shite = await event.client.send_message(
                 event.chat_id,
-                f"❏ **{owner} Kembali Online❤‍🔥**\n└ **Offline Selama** `{total_afk_time}` **Yang Lalu**",
+                f"❏ **{owner} 𝙺𝚎𝚖𝚋𝚊𝚕𝚒 𝙾𝚗𝚕𝚒𝚗𝚎❤‍🔥**\n└ **𝙾𝚏𝚏𝚕𝚒𝚗𝚎 𝚂𝚎𝚕𝚊𝚖𝚊** `{total_afk_time}` **𝚈𝚊𝚗𝚐 𝙻𝚊𝚕𝚞**",
             )
 
         await asyncio.sleep(6)
@@ -86,10 +86,10 @@ async def on_afk(event):
     if USER_AFK and not (await event.get_sender()).bot:
         msg = None
         if reason:
-            message_to_reply = f"❏ **{owner}**  `Sedang Offline❌`\n├ **Dari** `{total_afk_time}` **Yang Lalu**\n└ **Karena:** `{reason}`"
+            message_to_reply = f"❏ **{owner}**  `𝚂𝚎𝚍𝚊𝚗𝚐 𝙾𝚏𝚏𝚕𝚒𝚗𝚎❌`\n├ **𝙳𝚊𝚛𝚒** `{total_afk_time}` **𝚈𝚊𝚗𝚐 𝙻𝚊𝚕𝚞**\n└ **𝙺𝚊𝚛𝚎𝚗𝚊:** `{reason}`"
         else:
             message_to_reply = (
-                f"❏ **{owner}**  `Sedang Offline❌`\n└ **Dari** `{total_afk_time}` **Yang Lalu**"
+                f"❏ **{owner}**  `𝚂𝚎𝚍𝚊𝚗𝚐 𝙾𝚏𝚏𝚕𝚒𝚗𝚎❌`\n└ **𝙳𝚊𝚛𝚒** `{total_afk_time}` **𝚈𝚊𝚗𝚐 𝙻𝚊𝚕𝚞**"
             )
         try:
             if pic.endswith((".tgs", ".webp")):
