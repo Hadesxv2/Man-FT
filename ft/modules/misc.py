@@ -110,10 +110,10 @@ async def repo_is_here(event):
         f"**Hey**, __I am using__ 🔥 **Man-FT** 🔥\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✣ **FT Version :** `{BOT_VER}@{branch}`\n"
-        f"✣ **Group FTVPN :** [FTVPN](t.me/fightertunnell)\n"
-        f"✣ **Channel FTVPN :** [FTVPN](t.me/channell_fightertunnell)\n"
-        f"✣ **Owner Repo :** [ﾘんﾑ](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-FT](https://github.com/FighterTunnel/Man-FT)\n"
+        f"✣ **Group :** [NGOBROL](t.me/HadesxGroup)\n"
+        f"✣ **Channel VPN :** [HADESX VPN](t.me/HadesxVPN)\n"
+        f"✣ **Owner Repo :** [𝐇 𝐚 𝐝 𝐞 𝐬 𝐱](t.me/iHadesx)\n"
+        f"✣ **Repo :** [Man-FT](https://github.com/Hadesxv2/Man-FT)\n"
     )
 
 
